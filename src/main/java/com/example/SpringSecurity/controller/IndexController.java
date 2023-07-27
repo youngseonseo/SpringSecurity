@@ -56,5 +56,9 @@ public class IndexController {
         return "redirect:/loginForm";
     }
 
+    @GetMapping("/info")
+    public @ResponseBody String info(){
+        return "개인정보";
+    }
 
 }
