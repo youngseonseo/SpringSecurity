@@ -31,8 +31,8 @@ spring:
       client:
         registration:
           google: # /oauth2/authorization/google 이 주소를 동작하게 한다.
-            client-id: 머시기
-            client-secret: 머시기
+            client-id:
+            client-secret:
             scope:
               - email
               - profile

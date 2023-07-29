@@ -40,6 +40,7 @@ public class SecurityConfig {
                             .defaultSuccessUrl("/");        //로그인 성공시 /주소로 이동
 
                 })
+                .oauth2Login(httpSecurityOAuth2LoginConfigurer -> httpSecurityOAuth2LoginConfigurer.loginPage("/loginForm"))
                 .build();
     }
 }
